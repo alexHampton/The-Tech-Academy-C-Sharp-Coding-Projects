@@ -1,0 +1,23 @@
+﻿@using BNB.Models
+@model List<Customer>
+
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Customer Reservations</h2>
+
+@foreach(Customer customer in Model)
+{
+<div class="row mb-2">
+    <div class="col-12">@customer.FirstName @customer.LastName</div>
+    <div class="col-6">@customer.Phone</div>
+    <div class="col-6">@customer.Email</div>
+    <div class="col-6">Prefers: @customer.ContactMethod</div>
+    <div class="col-6">BNBID: @customer.BnbID</div>
+    <div class="col-12">Check-in: @customer.CheckIn</div>
+    <div class="col-12">Check-out: @customer.CheckOut</div>
+</div>
+}
+

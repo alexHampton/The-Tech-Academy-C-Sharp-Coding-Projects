@@ -1,0 +1,15 @@
+﻿@using CarInsuranceQuote.Models 
+@model Quote
+
+<div class="card mx-auto">
+    <div class="card-header">
+        <h2>Thanks @Model.FirstName,</h2>
+        <h3>here is your quote:</h3>
+    </div>
+    <div class="card-body">
+        <h3>$@Model.Total per month.</h3>
+        <p>We will be sure to send a copy of this quote to the email provided.</p>
+    </div>
+
+</div>
+

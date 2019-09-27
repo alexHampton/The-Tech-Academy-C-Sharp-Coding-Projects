@@ -1,0 +1,66 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="card shadow">
+    <div class="card-header text-center">
+        <h5>Request a reservation:</h5>
+    </div>
+    <div class="card-body">
+        @using (Html.BeginForm("InsertDB", "Customer"))
+        {
+        <div class="row text-center text-sm-left">
+            <div class="form-group col-xs-12 col-sm-6 col-md-6">
+                <label>First Name:</label><br />
+                <input type="text" name="FirstName" />
+            </div>
+            <div class="form-group col-xs-12 col-sm-6 col-md-6">
+                <label>Last Name:</label><br />
+                <input type="text" name="LastName" />
+            </div>
+            <div class="form-group col-xs-12 col-sm-6 col-md-6">
+                <label>Phone:</label><br />
+                <input type="tel" name="Phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" required />
+            </div>
+            <div class="form-group col-xs-12 col-sm-6 col-md-6">
+                <label>Email:</label><br />
+                <input type="email" name="Email" required />
+            </div>
+            <div class="form-group col-xs-12 col-sm-6 col-md-6">
+                <label>Preferred contact method:</label><br />
+                <select name="ContactMethod">
+                    <option value="Email">Email</option>
+                    <option value="Phone">Phone</option>
+                    <option value="Null">No preference</option>
+                </select>
+            </div>
+            <div class="form-group col-xs-12 col-sm-6 col-md-6">
+                <label>Check-in:</label><br />
+                <input type="date" name="CheckIn" required />
+            </div>
+            <div class="form-group col-xs-12 col-sm-6 col-md-6">
+                <label>Check-out:</label><br />
+                <input type="date" name="CheckOut" required />
+            </div>
+            <div class="form-group col-xs-12 col-sm-6 col-md-6">
+                <label>BNB:</label><br />
+                <select name="BnbID">
+                    <option value="1">Country Gardens</option>
+                    <option value="2">Country Roads</option>
+                    <option value="3">Country Hills</option>
+                </select>
+            </div>
+        </div>
+
+
+            <div class="row">
+                <div class="form-group col-12 text-center">
+                    <button type="submit" class="btn btn-block btn-primary">Submit</button>
+                </div>
+            </div>
+        }
+    </div>
+
+</div>
+

@@ -1,0 +1,10 @@
+C:\Users\alext\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\TwentyOne-ClassesAndObjects\TwentyOne-ClassesAndObjects\bin\Debug\TwentyOne-ClassesAndObjects.exe.config
+C:\Users\alext\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\TwentyOne-ClassesAndObjects\TwentyOne-ClassesAndObjects\bin\Debug\TwentyOne-ClassesAndObjects.exe
+C:\Users\alext\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\TwentyOne-ClassesAndObjects\TwentyOne-ClassesAndObjects\bin\Debug\TwentyOne-ClassesAndObjects.pdb
+C:\Users\alext\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\TwentyOne-ClassesAndObjects\TwentyOne-ClassesAndObjects\obj\Debug\TwentyOne-ClassesAndObjects.csprojAssemblyReference.cache
+C:\Users\alext\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\TwentyOne-ClassesAndObjects\TwentyOne-ClassesAndObjects\obj\Debug\TwentyOne-ClassesAndObjects.csproj.CoreCompileInputs.cache
+C:\Users\alext\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\TwentyOne-ClassesAndObjects\TwentyOne-ClassesAndObjects\obj\Debug\TwentyOne-ClassesAndObjects.exe
+C:\Users\alext\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\TwentyOne-ClassesAndObjects\TwentyOne-ClassesAndObjects\obj\Debug\TwentyOne-ClassesAndObjects.pdb
+C:\Users\alext\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\TwentyOne-ClassesAndObjects\TwentyOne-ClassesAndObjects\bin\Debug\Casino.dll
+C:\Users\alext\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\TwentyOne-ClassesAndObjects\TwentyOne-ClassesAndObjects\bin\Debug\Casino.pdb
+C:\Users\alext\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\TwentyOne-ClassesAndObjects\TwentyOne-ClassesAndObjects\obj\Debug\TwentyOne-ClassesAndObjects.csproj.CopyComplete
