@@ -1,4 +1,7 @@
-﻿@{
+﻿
+<link href="~/Styles/StyleSheet.css" rel="stylesheet" />
+
+@{
     ViewBag.Title = "Home Page";
 }
 
@@ -8,29 +11,43 @@
     <p>View our three locations below!</p>
 </div>
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Country Gardens</h2>
-        <p>
-            Be amazed at the vibrant colors of our gardens year-round! 
-            We've always got something growing to heighten your 
-            experience of the seasons.
-        </p>
-        <p><a class="btn btn-default" href="../Customer">Reservations &raquo;</a></p>
+<div class="row justify-content-around">
+
+    <div class="card col-12 col-md-4 col-lg-3 my-2" style="width: 18rem;">
+        <img src="~/Images/square_gardens.png" class="card-img-top" alt="Country Gardens">
+        <div class="card-body">
+            <h5 class="card-title">Country Gardens</h5>
+            <p class="card-text">
+                Be amazed at the vibrant colors of our gardens year-round!
+                We've always got something growing to heighten your
+                experience of the seasons..
+            </p>
+            <a href="../Customer" class="btn btn-primary">Reservations &raquo;</a>
+        </div>
     </div>
-    <div class="col-md-4">
-        <h2>Country Roads</h2>
-        <p>
-            Located in the at the crossroads of this quaint country town,
-            you can be away from it all, but still enjoy the hospitality of the
-            locals.
-        </p>
-        <p><a class="btn btn-default" href="../Customer">Reservations &raquo;</a></p>
+
+    <div class="card col-12 col-md-4 col-lg-3 my-2" style="width: 18rem;">
+        <img src="~/Images/square_roads.jpg" class="card-img-top" alt="Country Roads">
+        <div class="card-body">
+            <h5 class="card-title">Country Roads</h5>
+            <p class="card-text">
+                Located in the at the crossroads of this quaint country town,
+                you can be away from it all, but still enjoy the hospitality of the
+                locals.
+            </p>
+            <a href="../Customer" class="btn btn-primary">Reservations &raquo;</a>
+        </div>
     </div>
-    <div class="col-md-4">
-        <h2>Country Hills</h2>
-        <p>Get lost in the woods, with this spectacular cottage near private
-        hiking trails and pristene Lake Azure.</p>
-        <p><a class="btn btn-default" href="../Customer">Reservations &raquo;</a></p>
+
+    <div class="card col-12 col-md-4 col-lg-3 my-2" style="width: 18rem;">
+        <img src="~/Images/square_hills.jpg" class="card-img-top" alt="Country Roads">
+        <div class="card-body">
+            <h5 class="card-title">Country Hills</h5>
+            <p class="card-text">
+                Get lost in the woods, with this spectacular cottage near private
+                hiking trails and pristene Lake Azure.
+            </p>
+            <a href="../Customer" class="btn btn-primary">Reservations &raquo;</a>
+        </div>
     </div>
 </div>

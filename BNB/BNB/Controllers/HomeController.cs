@@ -15,7 +15,7 @@ namespace BNB.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "The number 1 travel destination in the region.";
 
             return View();
         }
