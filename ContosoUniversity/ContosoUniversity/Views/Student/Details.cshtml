@@ -1,0 +1,67 @@
+﻿@model ContosoUniversity.Models.Student
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Student</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.LastName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LastName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FirstMidName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FirstMidName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EnrollmentDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EnrollmentDate)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Enrollments)
+        </dt>
+        <dd>
+            <table class="table">
+                <tr>
+                    <th>Course Title</th>
+                    <th>Grade</th>
+                </tr>
+                @*This is Student.Enrollments ICollection*@
+                @foreach (var item in Model.Enrollments)
+                {
+                    <tr>
+                        <td>
+                            @* Since entities are linked by foreign keys, we can use Student Class to pull info from Enrollment and Course classes. *@ 
+                            @* Student.Enrollments is connected to Enrollment class, which has Course ICollection. That is then connected to Course class to pull the Title. *@
+                            @Html.DisplayFor(modelItem => item.Course.Title) <!-- Also, in this case, a lambda function is used, but a new variable isn't actually needed sice "item" from the foreach loop is used. -->
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Grade)
+                        </td>
+                    </tr>
+                }
+            </table>
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
