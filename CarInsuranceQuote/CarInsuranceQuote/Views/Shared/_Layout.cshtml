@@ -9,6 +9,10 @@
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
+    <header class="container mb-1">
+        @Html.ActionLink("Admin Page", "Index", "Admin", new { area = "" }, new { @class = "btn btn-outline-dark btn-lg" })
+        @Html.ActionLink("Request a Quote", "Index", "Home", new { area = "" }, new { @class = "btn btn-outline-dark btn-lg" })
+    </header>
     
     <div class="container body-content col-sm-12 col-md-10 col-lg-8 mx-auto">
         @RenderBody()
