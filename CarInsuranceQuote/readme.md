@@ -6,4 +6,8 @@
 
 3. Enter details into the form.
 
+![Request a quote form](screenshots/request.png)
+
 4. In the admin page, see relevant information of all generated quotes.
+
+![Admin page with generated quotes](screenshots/admin.png)
